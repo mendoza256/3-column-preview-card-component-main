@@ -1,0 +1,27 @@
+@media only screen and (min-device-width: 60rem) {
+    .parent {
+        width: 63.9vw;
+        flex-direction: row;
+        margin-top: 10rem;
+        margin-bottom: 3rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card1 {
+        margin-top: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.75rem;
+    }
+
+    .card3 {
+        border-top-right-radius: 0.75rem;
+        border-bottom-left-radius: 0;
+    }
+
+    p {
+        margin-bottom: 5.5rem;
+    }
+}
